@@ -44,8 +44,6 @@ int main()
     elemen *l;
     int co=0;
     Création(l);
-    for(int i=0;i<4;i++){
-        co=0;
-        cout<<"la 3eme elemen = "<<posistion(l,i,co)<<endl;}
+    cout<<"la 3eme elemen = "<<posistion(l,2,co)<<endl;}
     return 0;
 }
